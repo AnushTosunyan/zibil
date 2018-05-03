@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="zibil:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar</output-path>
+    <root id="root">
+      <element id="module-output" name="zibil" />
+      <element id="javaee-facet-resources" facet="zibil/web/Web" />
+      <element id="javaee-facet-resources" facet="zibil/ejb/EJB" />
+    </root>
+  </artifact>
+</component>
