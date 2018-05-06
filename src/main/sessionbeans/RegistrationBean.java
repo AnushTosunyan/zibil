@@ -2,15 +2,10 @@ package main.sessionbeans;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
-import javax.naming.Context;
-import javax.naming.InitialContext;
 import java.sql.*;
-import javax.sql.DataSource;
 
-
-
-@ManagedBean(name="RegistrationBean")
 @SessionScoped
+@ManagedBean(name="RegistrationBean")
 
 public class RegistrationBean {
     private String name;
@@ -65,58 +60,62 @@ public class RegistrationBean {
         this.dbuserName = dbuserName;
     }
 
-    public void dbData(String userName)
-    {
-        try
-        {
+    public void dbData() {
+        try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jwt","root","mukesh");
+            // instead of MySQL insert your db name, instead of *** insert your password
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","***");
             statement = connection.createStatement();
+            // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
+            SQL = "SELECT * FROM new_schema.users WHERE user_name = ?";
+            PreparedStatement pst = connection.prepareStatement(SQL);
+            pst.setString(1, userName);
+            resultSet = pst.executeQuery();
+            if (resultSet.next()) {
+                dbuserName = resultSet.getString("user_name"); // here too
 
-            SQL = "Select * from userDB where user_name like ('" + userName +"')";
-            resultSet = statement.executeQuery(SQL);
-            resultSet.next();
-            dbuserName = resultSet.getString(1);
-        }
-        catch(Exception ex)
-        {
+            } else {
+                dbuserName = null;
+            }
+        } catch(Exception ex) {
             ex.printStackTrace();
-            System.out.println("Exception Occurred in the process :" + ex);
+            System.out.println("Exception Occured in the process :" + ex);
         }
     }
 
     public String checkValidUser() {
 
-        dbData(userName);
+        dbData();
 
-        if(userName.equalsIgnoreCase(dbuserName))
-        {
+        if(userName.equalsIgnoreCase(dbuserName)) {
             return "failure";
-        }
-        else
+        } else {
             try {
-                Context ctx = new InitialContext();
-                DataSource ds = (DataSource) ctx.lookup("java:comp/env/jdbc/bd");
 
-                if (ds != null) {
-                    Connection con = ds.getConnection();
-                    if (con != null) {
-                        String sql = "INSERT INTO userDB(name, userName, password, email) VALUES(?,?,?,?)";
-                        PreparedStatement ps = con.prepareStatement(sql);
-                        ps.setString(1, name);
-                        ps.setString(2, password);
-                        ps.setString(3, userName);
-                        ps.setString(4, email);
-                        ps.executeUpdate();
-                        System.out.println("Data Added Successfully");
-                        return "success";
-                    }
+                Class.forName("com.mysql.jdbc.Driver");
+                // change db name and password accorrdingly
+                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","***");
+                statement = connection.createStatement();
+                if (connection != null) {
+                    // change schema, table and parameter names
+                    String sql = "INSERT INTO new_schema.users(name, user_name, password, email) VALUES(?,?,?,?)";
+                    PreparedStatement ps = connection.prepareStatement(sql);
+                    ps.setString(1, name);
+                    ps.setString(2, password);
+                    ps.setString(3, userName);
+                    ps.setString(4, email);
+                    ps.executeUpdate();
+                    System.out.println("Data Added Successfully");
+                    return "success";
                 }
+
             } catch (Exception ex) {
                 ex.printStackTrace();
                 System.out.println("Exception Occurred in the process :" + ex);
             }
-        return  "failure";
+
+            return "failure";
+        }
     }
 }
 
