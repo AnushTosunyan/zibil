@@ -1,10 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="exploded-ejb" name="zibil:ejb exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar</output-path>
+    <output-path>$PROJECT_DIR$/target/zibil</output-path>
     <root id="root">
-      <element id="module-output" name="zibil" />
-      <element id="javaee-facet-resources" facet="zibil/web/Web" />
       <element id="javaee-facet-resources" facet="zibil/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/zibil/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="zibil" />
     </root>
   </artifact>
 </component>

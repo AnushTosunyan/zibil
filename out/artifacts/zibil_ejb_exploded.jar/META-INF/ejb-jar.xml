@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-
-<ejb-jar >
-        <module-name>ejb-remote-server</module-name>
-</ejb-jar>

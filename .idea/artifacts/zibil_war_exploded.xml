@@ -5,15 +5,20 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="zibil" />
+          <element id="module-output" name="client" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Mojarra-1.2" />
           <element id="library" level="project" name="Java EE 6-Java EE 6" />
           <element id="library" level="project" name="mysql-connector-java-5.1" />
+          <element id="library" level="project" name="EJB" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="zibil/web/Web" />
       <element id="javaee-facet-resources" facet="zibil/ejb/EJB" />
+      <element id="module-output" name="client" />
+      <element id="javaee-facet-resources" facet="client/web/Web" />
+      <element id="module-output" name="Server" />
     </root>
   </artifact>
 </component>
