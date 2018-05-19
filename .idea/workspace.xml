@@ -7,82 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777fc6cb-bf03-4fb0-b583-57fc81528579" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Server_ejb_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Server_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/client_ejb_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_ejb_client_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_remote_naming_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_4_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_1_4_6_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_river_1_4_6_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_remoting_jboss_remoting_4_0_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_sasl_jboss_sasl_1_0_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ejb_jboss_ejb_api_3_2_spec_1_0_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_2_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_2_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/zibil_ejb_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/zibil_ejb_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/zibil_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/zibil_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ClientTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/META-INF/ejb-jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/failure.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/index.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/itemPage.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/login.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/main/java/ejb/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/main/sessionbeans/ClientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/main/sessionbeans/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/main/sessionbeans/LoginBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/main/sessionbeans/Register.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/main/sessionbeans/RegistrationBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/main/sessionbeans/WelcomeBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/registration.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/success.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_ejb_exploded.jar/welcome.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/java/ejb/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/java/ejb/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/sessionbeans/ClientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/sessionbeans/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/sessionbeans/LoginBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/sessionbeans/Register.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/sessionbeans/RegistrationBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/sessionbeans/WelcomeBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/welcome.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/welcome.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejb/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/ejb/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sessionbeans/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/sessionbeans/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sessionbeans/LoginBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/sessionbeans/LoginBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sessionbeans/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/sessionbeans/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sessionbeans/RegistrationBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/sessionbeans/RegistrationBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sessionbeans/WelcomeBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/sessionbeans/WelcomeBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/ejb/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/ejb/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/sessionbeans/ClientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/sessionbeans/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/sessionbeans/LoginBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/sessionbeans/Register.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/sessionbeans/RegistrationBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/sessionbeans/WelcomeBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/sessionbeans/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/sessionbeans/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/welcome.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/welcome.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zibil.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zibil.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -134,11 +64,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WelcomeBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/src/main/sessionbeans/WelcomeBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="16" lean-forward="true" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="faces-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="46" lean-forward="true" selection-end-line="48" selection-end-column="15" />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+        </entry>
+      </file>
+      <file leaf-file-name="failure.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/failure.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="registration.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/registration.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="300">
+              <caret line="20" column="12" lean-forward="true" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="31" lean-forward="true" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="itemPage.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/itemPage.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -146,26 +134,26 @@
       <file leaf-file-name="welcome.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/welcome.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="240">
+              <caret line="16" column="28" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="success.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/success.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/ClientTest.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="215">
+              <caret line="20" column="19" lean-forward="true" selection-end-line="25" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -179,9 +167,9 @@
         <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
         <option value="Jsp File" />
-        <option value="jsf" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="jsf" />
       </list>
     </option>
   </component>
@@ -198,6 +186,7 @@
       <find>ejb</find>
       <find>server</find>
       <find>zibi</find>
+      <find>public User</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Server/src/main</dir>
@@ -210,6 +199,9 @@
         <entry key="$PROJECT_DIR$" value="branch" />
       </map>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/index.xhtml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -242,19 +234,22 @@
         <option value="$PROJECT_DIR$/src/main/sessionbeans/LoginBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/ejb/User.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jboss-ejb-client.properties" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/sessionbeans/ClientTest.java" />
         <option value="$PROJECT_DIR$/client/src/ClientTest.java" />
         <option value="$PROJECT_DIR$/client/pom.xml" />
-        <option value="$PROJECT_DIR$/client/src/main/java/ClientTest.java" />
         <option value="$PROJECT_DIR$/Server/pom.xml" />
         <option value="$PROJECT_DIR$/Server/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/Server/web/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/Server/web/WEB-INF/faces-config.xml" />
         <option value="$PROJECT_DIR$/web/registration.xhtml" />
-        <option value="$PROJECT_DIR$/web/welcome.xhtml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/client/src/main/java/ClientTest.java" />
+        <option value="$PROJECT_DIR$/web/welcome.xhtml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/beans.xml" />
+        <option value="$PROJECT_DIR$/Server/src/main/sessionbeans/Login.java" />
+        <option value="$PROJECT_DIR$/Server/src/main/java/ejb/User.java" />
+        <option value="$PROJECT_DIR$/web/index.xhtml" />
       </list>
     </option>
   </component>
@@ -304,50 +299,7 @@
             <path>
               <item name="zibil" type="b2602c69:ProjectViewProjectNode" />
               <item name="zibil" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zibil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zibil" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zibil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zibil" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zibil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zibil" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zibil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zibil" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zibil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zibil" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="sessionbeans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zibil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zibil" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zibil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zibil" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zibil" type="b2602c69:ProjectViewProjectNode" />
@@ -364,14 +316,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DataGrid.QuickDoc.View" value="transposed" />
-    <property name="SearchEverywhereHistoryKey" value="su&#9;FILE&#9;file:///home/anush_tosunyan/Anush/zibil/web/success.xhtml" />
+    <property name="SearchEverywhereHistoryKey" value="us&#9;FILE&#9;file:///home/anush_tosunyan/Anush/zibil/Server/src/main/java/ejb/User.java&#10;su&#9;FILE&#9;file:///home/anush_tosunyan/Anush/zibil/web/success.xhtml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaee7-samples" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42016807" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -586,15 +538,16 @@
       <workItem from="1526197922714" duration="13963000" />
       <workItem from="1526661622028" duration="482000" />
       <workItem from="1526662484427" duration="830000" />
-      <workItem from="1526712671222" duration="20833000" />
+      <workItem from="1526712671222" duration="23774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70682000" />
+    <option name="totallyTimeSpent" value="73623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -610,7 +563,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33584338" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.30421686" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.30421686" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -619,10 +572,10 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.36445785" />
       <window_info anchor="bottom" id="Thumbnails" weight="0.3298193" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8917749" visible="true" weight="0.2137628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.89237666" visible="true" weight="0.2137628" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32831326" />
-      <window_info id="EJB" order="2" sideWeight="0.10822511" side_tool="true" visible="true" weight="0.2137628" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32831326" />
+      <window_info id="EJB" order="2" sideWeight="0.10762332" side_tool="true" visible="true" weight="0.2137628" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -821,13 +774,6 @@ resultSet.getString(1);</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://43a9fb29-7b91-4ed6-b078-20304c5159b4/schema/new_schema/table/table_name" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/sql/DriverManager.java" />
-    <entry file="das://ac8c3bb6-1a02-400b-ae9a-c5992d742b56/schema/PROJECT_schema/table/userDB" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/sql/Driver.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/43a9fb29-7b91-4ed6-b078-20304c5159b4/console.sql" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/sql/PreparedStatement.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Object.java" />
     <entry file="das://43a9fb29-7b91-4ed6-b078-20304c5159b4/schema/new_schema/table/users" />
     <entry file="file://$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/failure.xhtml" />
     <entry file="file://$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/index.xhtml">
@@ -893,13 +839,6 @@ resultSet.getString(1);</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/java/ejb/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="78" lean-forward="true" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jboss-ejb-client.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -908,32 +847,10 @@ resultSet.getString(1);</expression-string>
       </provider>
       <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/META-INF/ejb-jar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/sessionbeans/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/sessionbeans/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1034,54 +951,6 @@ resultSet.getString(1);</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/sessionbeans/LoginBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="122" column="30" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/sessionbeans/RegistrationBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/web/welcome.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1121,44 +990,171 @@ resultSet.getString(1);</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/sessionbeans/WelcomeBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/registration.xhtml">
+    <entry file="jar://$PROJECT_DIR$/lib/jsf-impl.jar!/com/sun/faces/lifecycle/LifecycleImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/META-INF/ejb-jar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="86" column="21" selection-end-line="98" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="127" column="25" selection-end-line="161" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/ClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="160">
+          <caret line="15" column="26" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/main/sessionbeans/LoginBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/main/sessionbeans/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/main/sessionbeans/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/main/sessionbeans/RegistrationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/main/java/ejb/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/main/sessionbeans/WelcomeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" lean-forward="true" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="20" column="19" lean-forward="true" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="46" lean-forward="true" selection-end-line="48" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/welcome.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="240">
+          <caret line="16" column="28" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/ClientTest.java">
+    <entry file="file://$PROJECT_DIR$/web/success.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" lean-forward="true" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/itemPage.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/registration.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="12" lean-forward="true" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/failure.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1185,7 +1181,7 @@ resultSet.getString(1);</expression-string>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.42016807" />
               </list>
             </option>
           </splitter-proportions>
@@ -1216,11 +1212,12 @@ resultSet.getString(1);</expression-string>
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|Server</last-edited>
+          <last-edited>Server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.42016807" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
