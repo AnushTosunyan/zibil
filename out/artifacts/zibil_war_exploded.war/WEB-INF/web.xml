@@ -5,7 +5,7 @@
          version="4.0">
     <context-param>
         <param-name>javax.faces.CONFIG_FILES</param-name>
-        <param-value>/META-INF/context.xml</param-value>
+        <param-value>/META-INF/context.xml,/META-INF/ejb-jar.xml</param-value>
     </context-param>
     <servlet>
         <servlet-name>Faces Servlet</servlet-name>
@@ -25,6 +25,6 @@
     </resource-ref>
 
     <welcome-file-list>
-        <welcome-file>registration.xhtml</welcome-file>
+        <welcome-file>welcome.xhtml</welcome-file>
     </welcome-file-list>
 </web-app>

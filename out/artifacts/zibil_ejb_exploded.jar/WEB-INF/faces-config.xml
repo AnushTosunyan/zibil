@@ -4,7 +4,19 @@
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd"
               version="2.0">
-
+    <navigation-rule>
+        <from-view-id>../welcome.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>login</from-outcome>
+            <to-view-id>../login.xhtml</to-view-id>
+            <redirect />
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>register</from-outcome>
+            <to-view-id>../registration.xhtml</to-view-id>
+            <redirect />
+        </navigation-case>
+    </navigation-rule>
     <navigation-rule>
         <from-view-id>../login.xhtml</from-view-id>
         <navigation-case>
@@ -13,8 +25,8 @@
             <redirect />
         </navigation-case>
         <navigation-case>
-            <from-outcome>success</from-outcome>
-            <to-view-id>../success.xhtml</to-view-id>
+            <from-outcome>itemPage</from-outcome>
+            <to-view-id>../itemPage.xhtml</to-view-id>
             <redirect />
         </navigation-case>
     </navigation-rule>
@@ -28,8 +40,8 @@
         </navigation-case>
 
         <navigation-case>
-            <from-outcome>success</from-outcome>
-            <to-view-id>../login.xhtml</to-view-id>
+            <from-outcome>itemPage</from-outcome>
+            <to-view-id>../itemPage.xhtml</to-view-id>
             <redirect />
         </navigation-case>
     </navigation-rule>

@@ -7,7 +7,7 @@ import java.sql.*;
 @SessionScoped
 @ManagedBean(name="RegistrationBean")
 
-public class RegistrationBean {
+public class RegistrationBean implements Register{
     private String name;
     private String userName;
     private String password;
@@ -63,8 +63,7 @@ public class RegistrationBean {
     public void dbData() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            // instead of MySQL insert your db name, instead of *** insert your password
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","***");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/?useSSL=false","root","pass");
             statement = connection.createStatement();
             // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
             SQL = "SELECT * FROM new_schema.users WHERE user_name = ?";
@@ -94,19 +93,19 @@ public class RegistrationBean {
 
                 Class.forName("com.mysql.jdbc.Driver");
                 // change db name and password accorrdingly
-                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","***");
+                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/?useSSL=false","root","pass");
                 statement = connection.createStatement();
                 if (connection != null) {
                     // change schema, table and parameter names
                     String sql = "INSERT INTO new_schema.users(name, user_name, password, email) VALUES(?,?,?,?)";
                     PreparedStatement ps = connection.prepareStatement(sql);
                     ps.setString(1, name);
-                    ps.setString(2, password);
-                    ps.setString(3, userName);
+                    ps.setString(2, userName);
+                    ps.setString(3, password);
                     ps.setString(4, email);
                     ps.executeUpdate();
                     System.out.println("Data Added Successfully");
-                    return "success";
+                    return "itemPage";
                 }
 
             } catch (Exception ex) {

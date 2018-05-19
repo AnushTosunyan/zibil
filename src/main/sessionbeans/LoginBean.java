@@ -9,7 +9,7 @@ import javax.faces.bean.SessionScoped;
 @ManagedBean(name="LoginBean")
 
 
-public class LoginBean {
+public class LoginBean implements Login{
     private String userName;
     private String password;
     private String dbuserName;
@@ -57,7 +57,7 @@ public class LoginBean {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             // change db name and password accordingly
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","***");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/?useSSL=false","root","pass");
             statement = connection.createStatement();
             // change schema, table and property name accordingly
             SQL = "SELECT * FROM new_schema.users WHERE user_name = ?";
@@ -84,7 +84,7 @@ public class LoginBean {
             return "failure";
         }
         if (userName.equalsIgnoreCase(dbuserName)) {
-                return password.equals(dbpassword) ? "success" : "failure";
+                return password.equals(dbpassword) ? "itemPage" : "failure";
         } else {
             return "failure";
         }
