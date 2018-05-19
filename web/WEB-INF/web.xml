@@ -5,7 +5,7 @@
          version="4.0">
     <context-param>
         <param-name>javax.faces.CONFIG_FILES</param-name>
-        <param-value>/META-INF/context.xml,/META-INF/ejb-jar.xml</param-value>
+        <param-value>/META-INF/context.xml,/META-INF/ejb-jar.xml,/WEB-INF/jboss-ejb-client.properties</param-value>
     </context-param>
     <servlet>
         <servlet-name>Faces Servlet</servlet-name>

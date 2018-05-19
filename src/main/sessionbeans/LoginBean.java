@@ -1,4 +1,7 @@
+
 package main.sessionbeans;
+
+import main.java.ejb.User;
 
 import java.sql.*;
 
@@ -13,6 +16,9 @@ public class LoginBean implements Login{
     private String userName;
     private String password;
     private String dbuserName;
+    private String dbname;
+    private String dbemail;
+    private User currUser;
 
     private String dbpassword;
     Connection connection;
@@ -67,6 +73,8 @@ public class LoginBean implements Login{
             if (resultSet.next()) {
                 dbuserName = resultSet.getString("user_name"); // here too
                 dbpassword = resultSet.getString("password"); // and here
+                dbemail = resultSet.getString("email");
+                dbname = resultSet.getString("name");
             } else {
                 dbuserName = null;
                 dbpassword = null;
@@ -84,7 +92,11 @@ public class LoginBean implements Login{
             return "failure";
         }
         if (userName.equalsIgnoreCase(dbuserName)) {
-                return password.equals(dbpassword) ? "itemPage" : "failure";
+                if(password.equals(dbpassword)){
+                    currUser = new User(dbuserName, dbemail, dbpassword, dbname);
+                    return "itemPage";
+                }
+                return"failure";
         } else {
             return "failure";
         }

@@ -1,5 +1,7 @@
 package main.sessionbeans;
 
+import main.java.ejb.User;
+
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import java.sql.*;
@@ -12,7 +14,7 @@ public class RegistrationBean implements Register{
     private String userName;
     private String password;
     private String email;
-
+    private User currUser;
     private String dbuserName;
 
     Connection connection;
@@ -105,6 +107,7 @@ public class RegistrationBean implements Register{
                     ps.setString(4, email);
                     ps.executeUpdate();
                     System.out.println("Data Added Successfully");
+                    currUser = new User(userName, email, password, name);
                     return "itemPage";
                 }
 

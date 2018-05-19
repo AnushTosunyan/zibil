@@ -13,5 +13,4 @@ public class WelcomeBean {
     public String register(){
         return "registration";
     }
-//    public String
 }

@@ -23,6 +23,12 @@ public class User {
     @Column(name = "name")
     private String name;
 
+    public User(String username, String email, String password, String name) {
+        this.username = username;
+        this.email = email;
+        this.password = password;
+        this.name = name;
+    }
 
     public String getUsername() {
         return username;
@@ -55,4 +61,6 @@ public class User {
     public void setName(String name) {
         this.name = name;
     }
+
+
 }
