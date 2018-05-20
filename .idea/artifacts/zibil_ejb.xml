@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="ejb-jar" name="zibil:ejb">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="zibil.jar">
-      <element id="artifact" artifact-name="zibil:ejb exploded" />
-    </root>
-  </artifact>
-</component>

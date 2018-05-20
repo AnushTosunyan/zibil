@@ -1,12 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="exploded-ejb" name="zibil:ejb exploded">
-    <output-path>$PROJECT_DIR$/target/zibil</output-path>
+    <output-path />
     <root id="root">
-      <element id="javaee-facet-resources" facet="zibil/ejb/EJB" />
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/zibil/META-INF/MANIFEST.MF" />
-      </element>
       <element id="module-output" name="zibil" />
+      <element id="library" level="project" name="mysql-connector-java-5.1.46" />
+      <element id="javaee-facet-resources" facet="zibil/web/Web" />
+      <element id="javaee-facet-resources" facet="zibil/ejb/EJB" />
+      <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.11" />
     </root>
   </artifact>
 </component>
