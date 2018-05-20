@@ -1,5 +1,5 @@
 
-package main.sessionbeans;
+package main.java.sessionbeans;
 
 import main.java.ejb.User;
 
@@ -10,9 +10,7 @@ import javax.faces.bean.SessionScoped;
 
 @SessionScoped
 @ManagedBean(name="LoginBean")
-
-
-public class LoginBean implements Login{
+public class LoginBean{
     private String userName;
     private String password;
     private String dbuserName;
@@ -63,7 +61,7 @@ public class LoginBean implements Login{
         try {
             Class.forName("com.mysql.jdbc.Driver");
             // change db name and password accordingly
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/?useSSL=false","root","pass");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","pass");
             statement = connection.createStatement();
             // change schema, table and property name accordingly
             SQL = "SELECT * FROM new_schema.users WHERE user_name = ?";

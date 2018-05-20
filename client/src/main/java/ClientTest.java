@@ -1,4 +1,6 @@
-import main.sessionbeans.Login;
+package main.java;
+
+import main.java.sessionbeans.Login;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
@@ -20,7 +22,6 @@ public class ClientTest {
 
     private static void invokeLoginBean() throws NamingException {
         final Login login = lookupLogin();
-        System.out.println(login.getUserName());
     }
     private static void  invokeRegistrationBean(){}
 
@@ -40,7 +41,7 @@ public class ClientTest {
 
             Context ctx = new InitialContext(props);
 
-            return (Login) ctx.lookup("ejb:/ejb/LoginBean!main.sessionbeans.Login");
+            return (Login) ctx.lookup("ejb:/ejb/LoginBean!main.java.sessionbeans.Login");
 
         }
         catch (NamingException e){

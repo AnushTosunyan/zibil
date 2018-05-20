@@ -1,4 +1,4 @@
-package main.sessionbeans;
+package main.java.sessionbeans;
 
 import main.java.ejb.User;
 
@@ -9,7 +9,7 @@ import java.sql.*;
 @SessionScoped
 @ManagedBean(name="RegistrationBean")
 
-public class RegistrationBean implements Register{
+public class RegistrationBean{
     private String name;
     private String userName;
     private String password;
@@ -65,7 +65,7 @@ public class RegistrationBean implements Register{
     public void dbData() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/?useSSL=false","root","pass");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","pass");
             statement = connection.createStatement();
             // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
             SQL = "SELECT * FROM new_schema.users WHERE user_name = ?";
@@ -95,7 +95,7 @@ public class RegistrationBean implements Register{
 
                 Class.forName("com.mysql.jdbc.Driver");
                 // change db name and password accorrdingly
-                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/?useSSL=false","root","pass");
+                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","pass");
                 statement = connection.createStatement();
                 if (connection != null) {
                     // change schema, table and parameter names
