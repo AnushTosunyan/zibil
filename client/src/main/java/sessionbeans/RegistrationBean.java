@@ -65,7 +65,7 @@ public class RegistrationBean{
     public void dbData() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","pass");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
             statement = connection.createStatement();
             // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
             SQL = "SELECT * FROM new_schema.users WHERE user_name = ?";
@@ -95,7 +95,7 @@ public class RegistrationBean{
 
                 Class.forName("com.mysql.jdbc.Driver");
                 // change db name and password accorrdingly
-                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","pass");
+                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
                 statement = connection.createStatement();
                 if (connection != null) {
                     // change schema, table and parameter names

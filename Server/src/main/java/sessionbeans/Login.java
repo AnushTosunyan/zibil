@@ -2,11 +2,9 @@ package main.java.sessionbeans;
 
 import javax.ejb.Remote;
 
-@Remote
+@Remote(Login.class)
 public interface Login {
-    void setUserName(String userName);
-    void setPassword(String pass);
-    String checkValidUser();
+    String checkValidUser(String username, String password);
 
 }
 
