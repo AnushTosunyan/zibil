@@ -5,6 +5,7 @@
       <configuration>
         <ejbRoots>
           <root url="file://$MODULE_DIR$/Server/src/main/java" />
+          <root url="file://$MODULE_DIR$/src" />
         </ejbRoots>
       </configuration>
     </facet>
@@ -38,5 +39,8 @@
     <orderEntry type="library" exported="" name="mysql-connector-java-5.1.46" level="project" />
     <orderEntry type="library" exported="" name="mysql-connector-java-5.1.46-bin" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.46" level="project" />
+    <orderEntry type="library" name="cdi-api" level="project" />
+    <orderEntry type="library" name="cdi-api-javadoc" level="project" />
+    <orderEntry type="library" name="cdi-api-sources" level="project" />
   </component>
 </module>
