@@ -5,8 +5,10 @@ import main.java.sessionbeans.Login;
 
 import java.util.Hashtable;
 
+import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import javax.inject.Inject;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -19,6 +21,8 @@ import static javax.naming.Context.URL_PKG_PREFIXES;
 @SessionScoped
 @ManagedBean(name="LoginBean")
 public class LoginBean {
+    @EJB
+    private Login login;
     private String userName;
     private String password;
 
@@ -41,14 +45,14 @@ public class LoginBean {
 
     public String checkValidUser() {
         String answer = "failure";
-        try {
-            final Login login = lookupLogin();
+//        try {
+           // final Login login = lookupLogin();
 
             answer = login.checkValidUser(userName, password);
-        } catch (NamingException e) {
-            System.out.println("Error during lookup");
-            e.printStackTrace();
-        }
+//        } catch (NamingException e) {
+//            System.out.println("Error during lookup");
+//            e.printStackTrace();
+//        }
 
         return answer;
     }

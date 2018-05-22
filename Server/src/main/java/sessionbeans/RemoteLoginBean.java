@@ -2,7 +2,9 @@ package main.java.sessionbeans;
 
 import main.java.ejb.User;
 
+import javax.ejb.EJB;
 import javax.ejb.Stateless;
+import javax.inject.Inject;
 import java.sql.*;
 
 @Stateless
@@ -16,6 +18,7 @@ public class RemoteLoginBean implements Login {
     private String dbuserName;
     private String dbemail;
     private String dbname;
+
     private User currUser;
 
 
