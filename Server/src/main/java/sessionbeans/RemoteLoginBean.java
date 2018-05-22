@@ -65,4 +65,9 @@ public class RemoteLoginBean implements Login {
             return "failure";
         }
     }
+
+    @Override
+    public User getUser() {
+        return currUser;
+    }
 }
