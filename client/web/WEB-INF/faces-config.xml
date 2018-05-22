@@ -25,8 +25,8 @@
             <redirect />
         </navigation-case>
         <navigation-case>
-            <from-outcome>itemPage</from-outcome>
-            <to-view-id>../itemPage.xhtml</to-view-id>
+            <from-outcome>itemList</from-outcome>
+            <to-view-id>../itemList.xhtml</to-view-id>
             <redirect />
         </navigation-case>
     </navigation-rule>
@@ -40,9 +40,17 @@
         </navigation-case>
 
         <navigation-case>
+            <from-outcome>itemList</from-outcome>
+            <to-view-id>../itemList.xhtml</to-view-id>
+            <redirect />
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>../itemList.xhtml</from-view-id>
+        <navigation-case>
             <from-outcome>itemPage</from-outcome>
             <to-view-id>../itemPage.xhtml</to-view-id>
-            <redirect />
         </navigation-case>
     </navigation-rule>
 

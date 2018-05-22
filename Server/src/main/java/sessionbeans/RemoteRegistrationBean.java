@@ -47,7 +47,7 @@ public class RemoteRegistrationBean implements Register {
                     ps.executeUpdate();
                     System.out.println("Data Added Successfully");
                     currUser = new User(userName, email, password, name);
-                    return "itemPage";
+                    return "itemList";
                 }
 
             } catch (Exception ex) {

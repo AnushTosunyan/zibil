@@ -11,5 +11,6 @@ public interface Login {
 
     User getFirstUser();
 
+    User getUser();
 }
 

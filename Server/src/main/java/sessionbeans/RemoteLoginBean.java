@@ -61,7 +61,7 @@ public class RemoteLoginBean implements Login {
         if (userName.equalsIgnoreCase(dbuserName)) {
             if(password.equals(dbpassword)){
                 currUser = new User(dbuserName, dbemail, dbpassword, dbname);
-                return "itemPage";
+                return "itemList";
             }
             return"failure";
         } else {
