@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="weld-se-core-javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/weld-se-core-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

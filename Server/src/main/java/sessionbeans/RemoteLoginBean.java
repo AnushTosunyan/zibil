@@ -4,9 +4,11 @@ import main.java.ejb.User;
 
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
+import javax.enterprise.inject.Default;
 import javax.inject.Inject;
 import java.sql.*;
 
+@Default
 @Stateless
 public class RemoteLoginBean implements Login {
     private String dbpassword;
@@ -65,4 +67,11 @@ public class RemoteLoginBean implements Login {
             return "failure";
         }
     }
+
+    @Override
+    public User getCurrentUser() {
+        return currUser;
+    }
+
+
 }
