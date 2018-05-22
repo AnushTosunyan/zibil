@@ -13,5 +13,24 @@
 <h2>Here are the list of items you can bid on</h2>
 
 <h2>#{ItemsBean.username}</h2>
+
+<h:dataTable value="#{ItemsBean.itemList}" var="o" >
+
+    <h:column>
+        <f:facet name="header">name</f:facet>
+        #{o.name}
+    </h:column>
+
+    <h:column>
+        <f:facet name="header">price</f:facet>
+        #{o.price}
+    </h:column>
+
+    <h:column>
+        <f:facet name="header">description</f:facet>
+        #{o.description}
+    </h:column>
+
+</h:dataTable>
 </body>
 </html>
