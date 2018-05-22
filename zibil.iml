@@ -37,6 +37,11 @@
     <orderEntry type="library" exported="" name="mysql-connector-java-5.1" level="project" />
     <orderEntry type="library" exported="" name="mysql-connector-java-5.1.46" level="project" />
     <orderEntry type="library" exported="" name="mysql-connector-java-5.1.46-bin" level="project" />
+    <orderEntry type="library" name="cdi-api" level="project" />
+    <orderEntry type="library" name="weld-api" level="project" />
+    <orderEntry type="library" name="weld-se-core" level="project" />
+    <orderEntry type="library" name="weld-se" level="project" />
+    <orderEntry type="library" name="weld-se-core-javadoc" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.46" level="project" />
     <orderEntry type="library" name="Maven: org.wildfly.plugins:wildfly-maven-plugin:maven-plugin:1.2.1.Final" level="project" />
     <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
