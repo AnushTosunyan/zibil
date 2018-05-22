@@ -3,8 +3,11 @@ package main.java.sessionbeans;
 import main.java.ejb.User;
 
 import javax.ejb.EJB;
+import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
+import javax.enterprise.context.Dependent;
 import javax.inject.Inject;
+import javax.inject.Named;
 import java.sql.*;
 
 @Stateless
@@ -64,5 +67,10 @@ public class RemoteLoginBean implements Login {
         } else {
             return "failure";
         }
+    }
+
+    @Override
+    public User getUser() {
+        return currUser;
     }
 }
