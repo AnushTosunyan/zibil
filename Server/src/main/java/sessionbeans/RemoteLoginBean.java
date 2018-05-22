@@ -73,4 +73,29 @@ public class RemoteLoginBean implements Login {
     public User getUser() {
         return currUser;
     }
+
+
+    @Override
+    public User getFirstUser() {
+        User user = null;
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
+            statement = connection.createStatement();
+            // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
+            SQL = "SELECT * FROM new_schema.users ";
+            PreparedStatement pst = connection.prepareStatement(SQL);
+            resultSet = pst.executeQuery();
+            if (resultSet.next()) {
+                user = new User(resultSet.getString("user_name"), resultSet.getString("email"), resultSet.getString("password"),resultSet.getString("name") ); // here too
+            } else {
+                user = null;
+            }
+        } catch(Exception ex) {
+            ex.printStackTrace();
+            System.out.println("Exception Occured in the process :" + ex);
+        }
+
+        return user;
+    }
 }

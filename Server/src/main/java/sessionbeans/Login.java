@@ -9,5 +9,7 @@ public interface Login {
     String checkValidUser(String username, String password);
     User getUser();
 
+    User getFirstUser();
+
 }
 

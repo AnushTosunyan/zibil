@@ -5,6 +5,8 @@ import main.java.ejb.User;
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import javax.faces.context.FacesContext;
+import javax.servlet.http.HttpSession;
 import java.sql.*;
 
 @SessionScoped
@@ -54,6 +56,11 @@ public class RegistrationBean{
 
     public String checkValidUser() {
         String answer = register.checkValidUser(userName, password, email, name);
+        User user = register.getUser();
+        FacesContext context = FacesContext.getCurrentInstance();
+        HttpSession session = (HttpSession) context.getExternalContext().getSession(true);
+
+        session.setAttribute("user", user);
         return answer;
     }
 
