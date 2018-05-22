@@ -1,6 +1,8 @@
 
 package main.java.sessionbeans;
 
+import main.java.sessionbeans.Login;
+
 import java.util.Hashtable;
 
 import javax.faces.bean.ManagedBean;
@@ -71,7 +73,7 @@ public class LoginBean {
             String moduleName = "Server";
             String beanName = RemoteLoginBean.class.getSimpleName();
             String interfaceName = Login.class.getName();
-            String lookupString = "ejb:/" + appName + "/" + moduleName + "/" + beanName + "!" + interfaceName;
+            String lookupString = "ejb:/Server/RemoteLoginBean!main.java.sessionbeans.Login";
             return (Login) ctx.lookup(lookupString);
 
         }
