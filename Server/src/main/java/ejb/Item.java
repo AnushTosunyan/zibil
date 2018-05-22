@@ -32,8 +32,6 @@ public class Item implements Serializable {
         this.name = name;
         this.description = description;
         this.price = price;
-//        this.start_date = start_date;
-//        this.end_date = end_date;
     }
 
     public String getName() {

@@ -20,7 +20,7 @@ public class RemoteRegistrationBean implements Register {
     public void dbData(String userName) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306","root","pass");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306?useSSL=false","root","pass");
             statement = connection.createStatement();
             // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
             SQL = "SELECT * FROM new_schema.users WHERE user_name = ?";
@@ -51,7 +51,7 @@ public class RemoteRegistrationBean implements Register {
 
                 Class.forName("com.mysql.jdbc.Driver");
                 // change db name and password accorrdingly
-                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306","root","pass");
+                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306?useSSL=false","root","pass");
                 statement = connection.createStatement();
                 if (connection != null) {
                     // change schema, table and parameter names
@@ -64,7 +64,7 @@ public class RemoteRegistrationBean implements Register {
                     ps.executeUpdate();
                     System.out.println("Data Added Successfully");
                     currUser = new User(userName, email, password, name);
-                    return "itemPage";
+                    return "itemList";
                 }
 
             } catch (Exception ex) {

@@ -26,7 +26,7 @@ public class RemoteLoginBean implements Login {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             // change db name and password accordingly
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306","root","pass");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306?useSSL=false","root","pass");
             statement = connection.createStatement();
             // change schema, table and property name accordingly
             SQL = "SELECT * FROM new_schema.users WHERE user_name = ?";
@@ -58,7 +58,7 @@ public class RemoteLoginBean implements Login {
         if (userName.equalsIgnoreCase(dbuserName)) {
             if(password.equals(dbpassword)){
                 currUser = new User(dbuserName, dbemail, dbpassword, dbname);
-                return "itemPage";
+                return "itemList";
             }
             return"failure";
         } else {

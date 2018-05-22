@@ -5,12 +5,9 @@ import main.java.ejb.User;
 
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpSession;
-import java.sql.Date;
-import java.sql.Timestamp;
 import java.util.ArrayList;
 
 @SessionScoped
@@ -20,11 +17,23 @@ public class ItemsBean {
     @EJB
     Items items;
 
+    private String result;
+
     private ArrayList<Item> itemList = new ArrayList<>();
 
     public ArrayList<Item> getItemList() {
         itemList = items.getItems();
         return itemList;
+    }
+
+    public String getResult() {
+        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        result = "itemPage";
+        return result;
+    }
+
+    public void setResult(String result) {
+        this.result = result;
     }
 
     public void setItemList(ArrayList<Item> itemList) {
@@ -40,8 +49,8 @@ public class ItemsBean {
     public String getUsername() {
         FacesContext facesContext = FacesContext.getCurrentInstance();
         HttpSession session = (HttpSession) facesContext.getExternalContext().getSession(true);
-
-        return ((User) session.getAttribute("user")).getUsername();
+        username = ((User) session.getAttribute("user")).getUsername();
+        return username;
     }
 
     public String getItemName(){
@@ -64,5 +73,6 @@ public class ItemsBean {
     public void setUsername(String username) {
         this.username = username;
     }
+
 
 }
