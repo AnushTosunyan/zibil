@@ -17,26 +17,9 @@ public class RemoteRegistrationBean implements Register {
     ResultSet resultSet;
     String SQL;
 
-    public void dbData(String userName) {
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
-            statement = connection.createStatement();
-            // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
-            SQL = "SELECT * FROM new_schema.users WHERE user_name = ?";
-            PreparedStatement pst = connection.prepareStatement(SQL);
-            pst.setString(1, userName);
-            resultSet = pst.executeQuery();
-            if (resultSet.next()) {
-                dbuserName = resultSet.getString("user_name"); // here too
-
-            } else {
-                dbuserName = null;
-            }
-        } catch(Exception ex) {
-            ex.printStackTrace();
-            System.out.println("Exception Occured in the process :" + ex);
-        }
+    @Override
+    public User getUser() {
+        return currUser;
     }
 
     @Override
@@ -72,6 +55,70 @@ public class RemoteRegistrationBean implements Register {
                 System.out.println("Exception Occurred in the process :" + ex);
             }
             return "failure";
+        }
+    }
+
+    public void dbData(String userName) {
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
+            statement = connection.createStatement();
+            // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
+            SQL = "SELECT * FROM new_schema.users WHERE user_name = ?";
+            PreparedStatement pst = connection.prepareStatement(SQL);
+            pst.setString(1, userName);
+            resultSet = pst.executeQuery();
+            if (resultSet.next()) {
+                dbuserName = resultSet.getString("user_name"); // here too
+
+            } else {
+                dbuserName = null;
+            }
+        } catch(Exception ex) {
+            ex.printStackTrace();
+            System.out.println("Exception Occured in the process :" + ex);
+        }
+    }
+
+
+    @Override
+    public User getFirstUser() {
+        User user = null;
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
+            statement = connection.createStatement();
+            // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
+            SQL = "SELECT * FROM new_schema.users ";
+            PreparedStatement pst = connection.prepareStatement(SQL);
+            resultSet = pst.executeQuery();
+            if (resultSet.next()) {
+                user = new User(resultSet.getString("user_name"), resultSet.getString("email"), resultSet.getString("password"),resultSet.getString("name") ); // here too
+            } else {
+                user = null;
+            }
+        } catch(Exception ex) {
+            ex.printStackTrace();
+            System.out.println("Exception Occured in the process :" + ex);
+        }
+
+        return user;
+    }
+
+    @Override
+    public void deleteUser(String username) {
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
+            statement = connection.createStatement();
+            // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
+            SQL = "DELETE FROM new_schema.users WHERE user_name = ?";
+            PreparedStatement pst = connection.prepareStatement(SQL);
+            pst.setString(1, username);
+            pst.executeUpdate();
+        } catch(Exception ex) {
+            ex.printStackTrace();
+            System.out.println("Exception Occured in the process :" + ex);
         }
     }
 }
