@@ -34,7 +34,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="JBoss 12.0.0.Final" level="application_server_libraries" />
     <orderEntry type="library" name="Java EE 6-Java EE 6 (2)" level="project" />
-    <orderEntry type="library" name="EJB" level="project" />
+    <orderEntry type="library" name="javax.faces-api-2.2" level="project" />
+    <orderEntry type="library" name="javax.servlet-3.0.0.v201112011016" level="project" />
+    <orderEntry type="library" name="javax.ejb" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.46" level="project" />
     <orderEntry type="module" module-name="zibil" />
     <orderEntry type="library" name="Maven: org.wildfly.plugins:wildfly-maven-plugin:maven-plugin:1.2.1.Final" level="project" />
@@ -92,7 +94,7 @@
     <orderEntry type="module-library">
       <library name="Maven: sun.jdk:jconsole:jdk">
         <CLASSES>
-          <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/lib/jconsole.jar!/" />
+          <root url="jar://$USER_HOME$/Intellij/jdk1.8.0_172/lib/jconsole.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

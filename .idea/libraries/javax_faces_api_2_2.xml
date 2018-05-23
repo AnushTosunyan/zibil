@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="EJB" type="EJB">
+  <library name="javax.faces-api-2.2">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/javax.faces-api-2.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/javax.faces-api-2.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

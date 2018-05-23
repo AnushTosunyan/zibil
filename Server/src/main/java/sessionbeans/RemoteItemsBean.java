@@ -23,7 +23,7 @@ public class RemoteItemsBean implements Items{
         try {
             Class.forName("com.mysql.jdbc.Driver");
             // change db name and password accordingly
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306","root","pass");
             statement = connection.createStatement();
             // change schema, table and property name accordingly
             SQL = "SELECT * FROM new_schema.items";

@@ -34,7 +34,7 @@ public class RemoteRegistrationBean implements Register {
 
                 Class.forName("com.mysql.jdbc.Driver");
                 // change db name and password accorrdingly
-                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
+                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306","root","pass");
                 statement = connection.createStatement();
                 if (connection != null) {
                     // change schema, table and parameter names
@@ -45,8 +45,17 @@ public class RemoteRegistrationBean implements Register {
                     ps.setString(3, password);
                     ps.setString(4, email);
                     ps.executeUpdate();
+
+                     sql = "SELECT id new_schema.users WHERE user_name = ?";
+                     ps = connection.prepareStatement(sql);
+                     ps.setString(1, userName);
+                     resultSet = ps.executeQuery();
+                     int id = 0;
+                     if (resultSet.next()) {
+                         id = resultSet.getInt("id");
+                     }
                     System.out.println("Data Added Successfully");
-                    currUser = new User(userName, email, password, name);
+                    currUser = new User( userName, email, password, name);
                     return "itemList";
                 }
 
@@ -61,7 +70,7 @@ public class RemoteRegistrationBean implements Register {
     public void dbData(String userName) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306","root","pass");
             statement = connection.createStatement();
             // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
             SQL = "SELECT * FROM new_schema.users WHERE user_name = ?";
@@ -86,7 +95,7 @@ public class RemoteRegistrationBean implements Register {
         User user = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306","root","pass");
             statement = connection.createStatement();
             // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
             SQL = "SELECT * FROM new_schema.users ";
@@ -109,7 +118,7 @@ public class RemoteRegistrationBean implements Register {
     public void deleteUser(String username) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306","root","pass");
             statement = connection.createStatement();
             // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
             SQL = "DELETE FROM new_schema.users WHERE user_name = ?";

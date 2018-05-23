@@ -21,6 +21,7 @@ public class RemoteLoginBean implements Login {
     private String dbuserName;
     private String dbemail;
     private String dbname;
+    private int dbId;
 
     private User currUser;
 
@@ -29,7 +30,7 @@ public class RemoteLoginBean implements Login {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             // change db name and password accordingly
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306","root","pass");
             statement = connection.createStatement();
             // change schema, table and property name accordingly
             SQL = "SELECT * FROM new_schema.users WHERE user_name = ?";
@@ -41,6 +42,7 @@ public class RemoteLoginBean implements Login {
                 dbpassword = resultSet.getString("password"); // and here
                 dbemail = resultSet.getString("email");
                 dbname = resultSet.getString("name");
+                dbId = resultSet.getInt("id");
             } else {
                 dbuserName = null;
                 dbpassword = null;
@@ -60,7 +62,7 @@ public class RemoteLoginBean implements Login {
         }
         if (userName.equalsIgnoreCase(dbuserName)) {
             if(password.equals(dbpassword)){
-                currUser = new User(dbuserName, dbemail, dbpassword, dbname);
+                currUser = new User( dbuserName, dbemail, dbpassword, dbname);
                 return "itemList";
             }
             return"failure";
@@ -80,7 +82,7 @@ public class RemoteLoginBean implements Login {
         User user = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","LoveRocK96");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306","root","pass");
             statement = connection.createStatement();
             // if you have a different schema and table name change them accordingly, should also change user_name property if they are different
             SQL = "SELECT * FROM new_schema.users ";

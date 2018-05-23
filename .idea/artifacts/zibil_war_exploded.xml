@@ -10,8 +10,6 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Mojarra-1.2" />
           <element id="library" level="project" name="Java EE 6-Java EE 6" />
-          <element id="library" level="project" name="mysql-connector-java-5.1" />
-          <element id="library" level="project" name="EJB" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="zibil/web/Web" />

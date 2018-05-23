@@ -11,7 +11,6 @@ import java.sql.*;
 
 @SessionScoped
 @ManagedBean(name="RegistrationBean")
-
 public class RegistrationBean{
     @EJB
     private Register register;
