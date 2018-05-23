@@ -44,7 +44,7 @@ public class testRegister {
 
     @Test
     public void adding_new_user(){
-        assert register.checkValidUser("testUser", "Testuser", "testuser", "TestUser").equals("itemPage");
+        assert register.checkValidUser("testUser", "Testuser", "testuser", "TestUser").equals("itemList");
 
         register.deleteUser("testUser");
     }

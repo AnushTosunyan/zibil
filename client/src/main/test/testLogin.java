@@ -26,7 +26,7 @@ public class testLogin {
         if (user == null) {
             assert false;
         } else {
-            assert login.checkValidUser(user.getUsername(), user.getPassword()).equals("itemPage");
+            assert login.checkValidUser(user.getUsername(), user.getPassword()).equals("itemList");
         }
     }
 
@@ -36,7 +36,7 @@ public class testLogin {
         if (user == null) {
             assert false;
         } else {
-            assert login.checkValidUser(user.getUsername().toUpperCase(), user.getPassword()).equals("itemPage");
+            assert login.checkValidUser(user.getUsername().toUpperCase(), user.getPassword()).equals("itemList");
         }
     }
 
@@ -46,7 +46,7 @@ public class testLogin {
         if (user == null) {
             assert false;
         } else {
-            assert login.checkValidUser(user.getUsername().toLowerCase(), user.getPassword()).equals("itemPage");
+            assert login.checkValidUser(user.getUsername().toLowerCase(), user.getPassword()).equals("itemList");
         }
     }
 

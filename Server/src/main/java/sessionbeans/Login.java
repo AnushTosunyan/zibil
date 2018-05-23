@@ -8,9 +8,6 @@ import javax.ejb.Remote;
 public interface Login {
     String checkValidUser(String username, String password);
     User getUser();
-
     User getFirstUser();
-
-    User getUser();
 }
 

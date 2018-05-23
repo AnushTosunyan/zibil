@@ -8,8 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="777fc6cb-bf03-4fb0-b583-57fc81528579" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/sessionbeans/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/sessionbeans/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/web/welcome.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/client/web/welcome.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/sessionbeans/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/sessionbeans/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/test/testLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/test/testLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/test/testRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/test/testRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/faces-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/itemPage.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/itemPage.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/welcome.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/welcome.xhtml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.xhtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="welcome.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/web/welcome.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="93">
               <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
             </state>
           </provider>
@@ -82,8 +86,8 @@
       <file leaf-file-name="testLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/test/testLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="88">
+              <caret line="48" column="110" selection-start-line="48" selection-start-column="110" selection-end-line="48" selection-end-column="110" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1740#1741#0" expanded="true" />
@@ -105,11 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testRegister.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testRegister.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/main/test/testRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state>
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,8 +123,8 @@
       <file leaf-file-name="RemoteRegistrationBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteRegistrationBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-604">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="-9">
+              <caret line="39" column="63" lean-forward="true" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -221,14 +224,14 @@
         <option value="$PROJECT_DIR$/client/src/main/java/META-INF/beans.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/client/src/main/java/sessionbeans/LoginBean.java" />
-        <option value="$PROJECT_DIR$/client/src/main/test/testRegister.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteRegistrationBean.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/sessionbeans/RegistrationBean.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteLoginBean.java" />
-        <option value="$PROJECT_DIR$/client/src/main/test/testLogin.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/sessionbeans/Login.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/sessionbeans/Register.java" />
         <option value="$PROJECT_DIR$/client/web/welcome.xhtml" />
+        <option value="$PROJECT_DIR$/client/src/main/test/testLogin.java" />
+        <option value="$PROJECT_DIR$/client/src/main/test/testRegister.java" />
       </list>
     </option>
   </component>
@@ -357,7 +360,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DataGrid.QuickDoc.View" value="transposed" />
-    <property name="SearchEverywhereHistoryKey" value="remotelog&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/sessionbeans/RemoteLoginBean.java&#10;logi&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/sessionbeans/Login.java&#10;regis&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/client/src/main/java/sessionbeans/RegistrationBean.java&#10;remotereg&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/sessionbeans/RemoteRegistrationBean.java&#10;login&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/client/src/main/java/sessionbeans/LoginBean.java&#10;remo&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/sessionbeans/RemoteLoginBean.java&#10;loginbea&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/client/src/main/java/sessionbeans/LoginBean.java&#10;User&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/ejb/User.java&#10;Remotel&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/sessionbeans/RemoteLoginBean.java&#10;Registe&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/sessionbeans/Register.java&#10;Registrat&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/client/web/registration.xhtml&#10;Registra&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/client/src/main/java/sessionbeans/RegistrationBean.java&#10;us&#9;FILE&#9;file:///home/anush_tosunyan/Anush/zibil/Server/src/main/java/ejb/User.java&#10;su&#9;FILE&#9;file:///home/anush_tosunyan/Anush/zibil/web/success.xhtml" />
+    <property name="SearchEverywhereHistoryKey" value="remo&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/sessionbeans/RemoteRegistrationBean.java&#10;remotelog&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/sessionbeans/RemoteLoginBean.java&#10;logi&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/sessionbeans/Login.java&#10;regis&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/client/src/main/java/sessionbeans/RegistrationBean.java&#10;remotereg&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/sessionbeans/RemoteRegistrationBean.java&#10;login&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/client/src/main/java/sessionbeans/LoginBean.java&#10;loginbea&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/client/src/main/java/sessionbeans/LoginBean.java&#10;User&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/ejb/User.java&#10;Remotel&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/sessionbeans/RemoteLoginBean.java&#10;Registe&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/Server/src/main/java/sessionbeans/Register.java&#10;Registrat&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/client/web/registration.xhtml&#10;Registra&#9;FILE&#9;file://D:/Seda/AUA/Spring 2018/CS 323 Advanced OOP/zibil/client/src/main/java/sessionbeans/RegistrationBean.java&#10;us&#9;FILE&#9;file:///home/anush_tosunyan/Anush/zibil/Server/src/main/java/ejb/User.java&#10;su&#9;FILE&#9;file:///home/anush_tosunyan/Anush/zibil/web/success.xhtml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -402,7 +405,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JBoss Server.Local">
+  <component name="RunManager" selected="JUnit.testLogin">
     <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClientTest" />
       <module name="client" />
@@ -709,22 +712,17 @@
       <option name="project" value="LOCAL" />
       <updated>1527009881649</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="minor fixes">
+      <created>1527033886855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527033886855</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testLogin - 2018.05.22 at 22h 45m 21s.xml">
-      <configuration name="testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testLogin - 2018.05.22 at 22h 46m 17s.xml">
-      <configuration name="testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testRegister - 2018.05.23 at 03h 22m 30s.xml">
-      <configuration name="testRegister" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testRegister - 2018.05.23 at 03h 24m 46s.xml">
-      <configuration name="testRegister" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testRegister - 2018.05.23 at 03h 25m 15s.xml">
       <configuration name="testRegister" configurationId="JUnit" />
     </history-entry>
@@ -743,9 +741,21 @@
     <history-entry file="testLogin - 2018.05.23 at 03h 47m 31s.xml">
       <configuration name="testLogin" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testLogin - 2018.05.23 at 04h 05m 10s.xml">
+      <configuration name="testLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testRegister - 2018.05.23 at 04h 06m 02s.xml">
+      <configuration name="testRegister" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testRegister - 2018.05.23 at 04h 06m 36s.xml">
+      <configuration name="testRegister" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testRegister - 2018.05.23 at 04h 07m 32s.xml">
+      <configuration name="testRegister" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103674000" />
+    <option name="totallyTimeSpent" value="103988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -770,8 +780,8 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49930653" visible="true" weight="0.32621083" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930653" weight="0.33333334" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49930653" weight="0.32621083" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49930653" visible="true" weight="0.3945869" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.5569801" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8883827" visible="true" weight="0.22818792" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -868,7 +878,8 @@
     <MESSAGE value="ejb" />
     <MESSAGE value="register" />
     <MESSAGE value="untouchable!!!!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="untouchable!!!!!!" />
+    <MESSAGE value="minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1312,16 +1323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/test/testRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/sessionbeans/RegistrationBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -1329,32 +1330,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteRegistrationBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-604">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteLoginBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/test/testLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1380,8 +1359,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/web/welcome.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="93">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/test/testLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="48" column="110" selection-start-line="48" selection-start-column="110" selection-end-line="48" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteRegistrationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="39" column="63" lean-forward="true" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/test/testRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
