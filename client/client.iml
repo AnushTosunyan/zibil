@@ -125,5 +125,10 @@
     <orderEntry type="library" name="Maven: javax.activation:activation:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.1" level="project" />
     <orderEntry type="library" name="Maven: net.jcip:jcip-annotations:1.0" level="project" />
+    <orderEntry type="library" name="weld-se" level="project" />
+    <orderEntry type="library" name="weld-api" level="project" />
+    <orderEntry type="library" name="weld-se-core-javadoc" level="project" />
+    <orderEntry type="library" name="cdi-api" level="project" />
+    <orderEntry type="library" name="weld-se-core" level="project" />
   </component>
 </module>

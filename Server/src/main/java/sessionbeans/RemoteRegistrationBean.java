@@ -46,14 +46,6 @@ public class RemoteRegistrationBean implements Register {
                     ps.setString(4, email);
                     ps.executeUpdate();
 
-                     sql = "SELECT id new_schema.users WHERE user_name = ?";
-                     ps = connection.prepareStatement(sql);
-                     ps.setString(1, userName);
-                     resultSet = ps.executeQuery();
-                     int id = 0;
-                     if (resultSet.next()) {
-                         id = resultSet.getInt("id");
-                     }
                     System.out.println("Data Added Successfully");
                     currUser = new User( userName, email, password, name);
                     return "itemList";
