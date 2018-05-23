@@ -4,8 +4,54 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-      xmlns:f="http://xmlns.jcp.org/jsf/core">
-<f:view>
-    <h2> You are currently bidding! </h2>
-</f:view>
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+    <head>
+        <title>Item you are currently bidding on!</title>
+    </head>
+    <body>
+        <ui:include src="" />
+        <h2>Here are the list of ongoing bids</h2>
+
+
+
+        <h:dataTable value="#{ItemPageBean.bidList}" var="o" >
+
+            <h:column>
+                <f:facet name="header">name</f:facet>
+                #{o.userId}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">bid amount</f:facet>
+                #{o.amount}
+            </h:column>
+
+        </h:dataTable>
+
+        <h:form>
+            <table>
+                <tr>
+                    <td><h:outputText value="Enter Next bid: " /></td>
+                    <td><h:inputText id="amount"
+                             value="#{ItemPageBean.amount}" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><h:commandButton value="Bid"
+                                          action="#{ItemPageBean.makeBid}"/>
+                    </td>
+                </tr>
+                <tr>
+
+                </tr>
+                <tr>
+                    <td><h:commandButton value="Logout"
+                                        action="#{LogoutBean.logout}"/>
+                    </td>
+                </tr>
+            </table>
+        </h:form>
+
+    </body>
 </html>

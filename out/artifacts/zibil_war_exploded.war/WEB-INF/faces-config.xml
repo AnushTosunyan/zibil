@@ -52,6 +52,21 @@
             <from-outcome>itemPage</from-outcome>
             <to-view-id>../itemPage.xhtml</to-view-id>
         </navigation-case>
+
+        <navigation-case>
+            <from-outcome>welcome</from-outcome>
+            <to-view-id>../welcome.xhtml</to-view-id>
+        </navigation-case>
+
+    </navigation-rule>
+
+
+    <navigation-rule>
+        <from-view-id>../itemPage.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>welcome</from-outcome>
+            <to-view-id>../welcome.xhtml</to-view-id>
+        </navigation-case>
     </navigation-rule>
 
 </faces-config>

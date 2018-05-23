@@ -30,7 +30,7 @@ public class RemoteItemsBean implements Items{
             PreparedStatement pst = connection.prepareStatement(SQL);
             resultSet = pst.executeQuery();
             while (resultSet.next()){
-                item = new Item(resultSet.getString("name"), resultSet.getString("description"), resultSet.getInt("price"));
+                item = new Item(resultSet.getInt("Id"),resultSet.getString("name"), resultSet.getString("description"), resultSet.getInt("price"));
                 items.add(item);
             }
         } catch(Exception ex) {
