@@ -4,33 +4,46 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-      xmlns:f="http://xmlns.jcp.org/jsf/core">
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core">
 
-<head>
-    <title>Items Page</title>
-</head>
-<body>
-<h2>Here are the list of items you can bid on</h2>
+    <head>
+        <title>Item you are currently bidding on!</title>
+    </head>
+    <body>
+        <ui:include src="" />
+        <h2>Here are the list of ongoing bids</h2>
 
-<h2>#{ItemsBean.username}</h2>
 
-<h:dataTable value="#{ItemsBean.itemList}" var="o" >
 
-    <h:column>
-        <f:facet name="header">name</f:facet>
-        #{o.name}
-    </h:column>
+        <h:dataTable value="#{ItemPageBean.bidList}" var="o" >
 
-    <h:column>
-        <f:facet name="header">price</f:facet>
-        #{o.price}
-    </h:column>
+            <h:column>
+                <f:facet name="header">name</f:facet>
+                #{o.userId}
+            </h:column>
 
-    <h:column>
-        <f:facet name="header">description</f:facet>
-        #{o.description}
-    </h:column>
+            <h:column>
+                <f:facet name="header">bid amount</f:facet>
+                #{o.amount}
+            </h:column>
 
-</h:dataTable>
-</body>
+        </h:dataTable>
+
+        <h:form>
+            <table>
+                <tr>
+                    <td><h:outputText value="Enter Next bid: " /></td>
+                    <td><h:inputText id="amount"
+                             value="#{ItemPageBean.amount}" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><h:commandButton value="Bid"
+                                          action="#{ItemPageBean.makeBid}"/>
+                    </td>
+                </tr>
+            </table>
+        </h:form>
+
+    </body>
 </html>

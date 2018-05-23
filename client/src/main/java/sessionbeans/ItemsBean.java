@@ -26,13 +26,16 @@ public class ItemsBean {
         return itemList;
     }
 
-    public String getResult() {
-        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+    public String getResult(int id) {
+        FacesContext facesContext = FacesContext.getCurrentInstance();
+        HttpSession session = (HttpSession) facesContext.getExternalContext().getSession(true);
+        session.setAttribute("itemId", id);
         result = "itemPage";
         return result;
     }
 
     public void setResult(String result) {
+
         this.result = result;
     }
 

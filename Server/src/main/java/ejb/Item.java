@@ -28,10 +28,15 @@ public class Item implements Serializable {
     @Column(name = "end_date")
     private Timestamp end_date;
 
-    public Item(String name, String description, int price) {
+    public Item(int id, String name, String description, int price) {
+        this.itemId = id;
         this.name = name;
         this.description = description;
         this.price = price;
+    }
+
+    public void setItemId(int itemId) {
+        this.itemId = itemId;
     }
 
     public String getName() {
