@@ -7,21 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777fc6cb-bf03-4fb0-b583-57fc81528579" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/sessionbeans/LogoutBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/ejb/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/ejb/Bid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/ejb/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/ejb/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/ejb/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/ejb/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteItemsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteItemsBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteItemPageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteItemPageBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/java/sessionbeans/ItemPageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/sessionbeans/ItemPageBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/sessionbeans/ItemsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/sessionbeans/ItemsBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/main/java/sessionbeans/ItemPageBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/main/java/sessionbeans/ItemPageBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/web/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/web/WEB-INF/faces-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/web/itemList.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/client/web/itemList.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/web/itemPage.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/client/web/itemPage.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/web/welcome.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/client/web/welcome.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/java/ejb/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/java/ejb/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/faces-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/itemPage.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/itemPage.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/welcome.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/welcome.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/ejb/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/ejb/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/java/sessionbeans/ItemPageBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/java/sessionbeans/ItemPageBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/java/sessionbeans/RemoteItemPageBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/WEB-INF/classes/main/java/sessionbeans/RemoteItemPageBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/main/java/sessionbeans/ItemPageBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zibil_war_exploded.war/main/java/sessionbeans/ItemPageBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/sessionbeans/RemoteItemPageBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/sessionbeans/RemoteItemPageBean.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,11 +98,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ItemPageBean.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemPageBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/sessionbeans/ItemPageBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            <state relative-caret-position="218">
+              <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,41 +113,8 @@
       <file leaf-file-name="LoginBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/sessionbeans/LoginBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="40" column="54" selection-start-line="38" selection-start-column="8" selection-end-line="40" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoteItemPageBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteItemPageBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/src/main/java/sessionbeans/ItemPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/web/registration.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="308">
+              <caret line="40" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -164,29 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoteRegistrationBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteRegistrationBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="43" selection-start-line="25" selection-start-column="12" selection-end-line="28" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="itemList.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/web/itemList.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="72" selection-start-line="36" selection-start-column="12" selection-end-line="37" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="itemPage.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/web/itemPage.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="72" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="72" />
+            <state relative-caret-position="323">
+              <caret line="49" column="67" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -194,11 +140,62 @@
       <file leaf-file-name="ItemsBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/sessionbeans/ItemsBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="24" />
+            <state relative-caret-position="195">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogoutBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/sessionbeans/LogoutBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="itemList.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/web/itemList.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="faces-config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/web/WEB-INF/faces-config.xml">
+          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="success.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/web/success.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -213,8 +210,8 @@
         <option value="FxmlFile" />
         <option value="Jsp File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="jsf" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -236,6 +233,7 @@
       <find>Date</find>
       <find>&quot;itemPage</find>
       <find>itemPage</find>
+      <find>AAA</find>
     </findStrings>
     <replaceStrings>
       <replace>Timestamp</replace>
@@ -259,7 +257,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/login.xhtml" />
         <option value="$PROJECT_DIR$/web/login_failure.xhtml" />
         <option value="$PROJECT_DIR$/web/ItemList.xhtml" />
         <option value="$PROJECT_DIR$/web/itemPage.xhtml" />
@@ -298,18 +295,19 @@
         <option value="$PROJECT_DIR$/Server/src/main/java/sessionbeans/Items.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteLoginBean.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteRegistrationBean.java" />
-        <option value="$PROJECT_DIR$/client/web/WEB-INF/faces-config.xml" />
         <option value="$PROJECT_DIR$/client/web/welcome.xhtml" />
-        <option value="$PROJECT_DIR$/client/web/itemList.xhtml" />
-        <option value="$PROJECT_DIR$/client/web/itemPage.xhtml" />
         <option value="$PROJECT_DIR$/client/src/main/java/sessionbeans/ItemsBean.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/ejb/Item.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteItemsBean.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/ejb/Bid.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/ejb/User.java" />
-        <option value="$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteItemPageBean.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/sessionbeans/ItemPage.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/sessionbeans/ItemPageBean.java" />
+        <option value="$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteItemPageBean.java" />
+        <option value="$PROJECT_DIR$/client/web/itemPage.xhtml" />
+        <option value="$PROJECT_DIR$/client/src/main/java/sessionbeans/LogoutBean.java" />
+        <option value="$PROJECT_DIR$/client/web/itemList.xhtml" />
+        <option value="$PROJECT_DIR$/client/web/WEB-INF/faces-config.xml" />
       </list>
     </option>
   </component>
@@ -361,8 +359,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -447,7 +443,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -684,7 +682,7 @@
       <workItem from="1526712671222" duration="23774000" />
       <workItem from="1526915613846" duration="9051000" />
       <workItem from="1526996069202" duration="5221000" />
-      <workItem from="1527069448076" duration="196000" />
+      <workItem from="1527069448076" duration="2746000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1526852839449</created>
@@ -732,11 +730,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114312000" />
+    <option name="totallyTimeSpent" value="117058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="12" />
       <window_info anchor="bottom" id="Event Log" order="21" sideWeight="0.5006935" side_tool="true" weight="0.36599424" />
@@ -753,16 +750,17 @@
       <window_info id="UI Designer" order="11" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.33475783" />
       <window_info anchor="bottom" id="TODO" order="17" />
-      <window_info anchor="bottom" id="Messages" order="25" sideWeight="0.49930653" weight="0.3005698" />
+      <window_info anchor="bottom" id="Messages" order="25" sideWeight="0.49930653" weight="0.2996988" />
       <window_info anchor="right" id="Palette&#9;" order="11" />
       <window_info id="Image Layers" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="22" />
       <window_info anchor="right" id="Capture Analysis" order="14" />
       <window_info anchor="bottom" id="Version Control" order="24" sideWeight="0.49930653" weight="0.35042736" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49930653" visible="true" weight="0.3448795" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49930653" visible="true" weight="0.3448795" />
       <window_info anchor="bottom" id="Terminal" order="19" weight="0.32905984" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.8883827" visible="true" weight="0.1749634" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.8883827" visible="true" weight="0.26281112" />
       <window_info id="Web" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32831326" />
       <window_info id="EJB" order="9" sideWeight="0.109619685" side_tool="true" weight="0.4410541" />
       <window_info anchor="right" id="Theme Preview" order="15" />
       <window_info id="Favorites" order="12" side_tool="true" />
@@ -774,7 +772,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Module Dependencies" order="21" weight="0.6518724" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32078314" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32831326" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
     </layout>
@@ -962,23 +959,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/sessionbeans/ItemsBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/web/failure.xhtml" />
     <entry file="jar://$PROJECT_DIR$/lib/jsf-impl.jar!/com/sun/faces/lifecycle/LifecycleImpl.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1050,13 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/META-INF/ejb-jar.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1108,13 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/web/success.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -1231,41 +1197,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/sessionbeans/LoginBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="40" column="54" selection-start-line="38" selection-start-column="8" selection-end-line="40" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/web/registration.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/web/itemList.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="72" selection-start-line="36" selection-start-column="12" selection-end-line="37" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/web/itemPage.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="72" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/sessionbeans/ItemsBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,27 +1211,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/java/sessionbeans/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteRegistrationBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="28" column="43" selection-start-line="25" selection-start-column="12" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteItemPageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1310,13 +1228,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/sessionbeans/ItemPageBean.java">
+    <entry file="file://$PROJECT_DIR$/Server/src/main/java/sessionbeans/RemoteItemPageBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        <state relative-caret-position="915">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/main/java/sessionbeans/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/web/success.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/sessionbeans/ItemsBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/web/itemPage.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="49" column="67" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/sessionbeans/LoginBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="40" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/sessionbeans/ItemPageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/sessionbeans/LogoutBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/web/itemList.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/web/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
         </state>
       </provider>
     </entry>

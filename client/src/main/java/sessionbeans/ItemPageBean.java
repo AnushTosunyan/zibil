@@ -39,7 +39,6 @@ public class ItemPageBean {
     }
 
     public ArrayList<Bid> getBidList() {
-        System.out.println(itemId);
         bidList = itemPage.getBids();
         return bidList;
     }

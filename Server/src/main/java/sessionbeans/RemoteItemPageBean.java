@@ -36,7 +36,6 @@ public class RemoteItemPageBean implements ItemPage{
             resultSet = pst.executeQuery();
 
             while (resultSet.next()){
-                System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAA");
                 bids.add(new Bid(resultSet.getInt("amount"), resultSet.getInt("userId"),id));
             }
         } catch(Exception ex) {
@@ -60,7 +59,6 @@ public class RemoteItemPageBean implements ItemPage{
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306?useSSL=false","root","pass");
             statement = connection.createStatement();
             if (connection != null) {
-                // change schema, table and parameter names
                 String sql = "INSERT INTO new_schema.bids(amount, userId, itemId) VALUES(?,?,?)";
                 PreparedStatement ps = connection.prepareStatement(sql);
                 ps.setInt(1, amount);
